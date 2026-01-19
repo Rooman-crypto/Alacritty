@@ -1,1 +1,2 @@
 # Alacritty
+# Alacritty
