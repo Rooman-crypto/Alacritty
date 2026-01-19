@@ -1,0 +1,28 @@
+[general]
+import = ["~/.config/alacritty/alacritty-theme/themes/hypr_dark.toml"]
+live_config_reload = false
+
+[window]
+# Set initial size in columns and lines and decorations
+dimensions.columns = 140
+dimensions.lines = 40
+#decorations = "None"
+
+#Effects, Optional: transparency
+
+#blur = true 
+opacity = 1.0
+
+# Padding
+
+#padding = { x = 3, y = 3 }
+#dynamic_padding = true
+
+[scrolling]
+history = 10000
+multiplier = 4
+[font]
+normal = { family = "Cascadia Code"} 
+# Common exact name; alternatives: "MesloLGS NF", "Meslo LG L Nerd Font Mono"
+size = 14.0  # Or 14–16; looks great a bit larger 
+
